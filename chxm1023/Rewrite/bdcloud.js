@@ -62,7 +62,10 @@ if ($request.url.indexOf(yike) != -1){
     "start_time": 1646537208,
     "end_time": 4092599349
   }],
-  "expire_time": 0
+  "expire_time": 0,
+  level_info: {
+    current_level: 10,
+  },
  };
 }
 
