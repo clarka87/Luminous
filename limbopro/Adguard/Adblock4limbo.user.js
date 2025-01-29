@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Adblock4limbo.[github]
 // @namespace    https://github.com/limbopro/Adblock4limbo/raw/main/Adguard/Adblock4limbo.user.js
-// @version      0.2025.01.02
+// @version      0.2025.01.26
 // @license      CC BY-NC-SA 4.0
 // @description  毒奶去网页广告计划用户脚本 For Quantumult X & Surge & Shadowrocket & Loon & Stash & 油猴 ；1.新增页面右下角导航；2.通过 JavaScript 移除特定网站网页广告 —— 搜索引擎（Bing/Google）广告及内容农场结果清除/低端影视/欧乐影院/iyf爱壹帆/哔滴影视/Pornhub/Javbus/Supjav/Jable(支持抓取M3U8链接)/MissAv/91porn(支持视频下载)/hitomi/紳士漫畫/禁漫天堂/等视频&ACG&小说&漫画网站上的弹窗广告&视频广告&Gif图片广告等，保持网页清爽干净无打扰！ P.S. 欢迎提交issue
 // @author       limbopro
@@ -89,6 +89,9 @@
 // @match        https://cn.pornhub.com/*
 // @match        https://www.pornhub.com/*
 // @match        https://missav.com/*
+// @match        https://missav.ai/*
+// @match        https://missav.ws/*
+// @match        https://bi-girl.net/*
 // @match        https://91porn.com/*
 // @match        https://91porna.com/*
 // @match        https://www.91porn.com/*
@@ -117,6 +120,7 @@
 // @match        https://www.libvio.pro/*
 // @match        https://www.libvio.top/*
 // @match        https://www.libvio.me/*
+// @match        https://www.libvio.fun/*
 // @match        https://www.tvn.cc/*
 // @match        https://m.tvn.cc/*
 // @match        https://wap.tvn.cc/*
@@ -187,6 +191,7 @@
 // @match        https://www.javlibrary.com/*
 // @match        https://rouman5.com/*
 // @exclude      https://x.com/*
+// @exclude      https://pan.baidu.com/*
 // @exclude      https://twitter.com/*
 // @exclude      https://limbopro.com/*
 // @exclude      https://venus-av.com/*
@@ -311,7 +316,7 @@ var imax = {
         btbdys: "div[style*='z-index:999'],.artplayer-plugin-ads, .artplayer-plugin-ads, *#ad-float, a[href*='z2py'], a[href*='dodder'], .ayx[style^=\"position\: fixed;bottom\"],#ad-index,#adsbox,.ayx[style=\"display:block;\"],.ayx[style^=\"position: fixed;bottom\"],a[target*=_new] {display:none !important;}", // 哔滴影视
         switch: ".switch {display:none !important}",
         ddrk: "div#afc_sidebar_2842, div.cfa_popup, div[class*='popup'], #sajdhfbjwhe, #kasjbgih, #fkasjgf, img[src*='bcebos'] {opacity:0% !important; pointer-events: none !important;}",
-        baidu_zhidao: "*,.ad-link:not(.adsbox), .ad-icon, .ec-ad, mdiv[class$='-ecom-ads'],div[class*='fc-'][tplid],.ec_ad_results, .ad-icon, .wpbyuwfarr-ecom-ads, div[class*=\"fc-\"][tplid], .w-question-list[data-sign], .ec-ad, {display:none !important;}",
+        baidu_zhidao: "div[class$='-ecom-ads'], div[class*='fc-'][tplid], .wgt-ads {display :none !important; pointer-events: none !important;}",
         baidu_search: "div[style*=fixed],.ec_ad_results {display:none !important;} ", // baidu
         baidu_index: "a[data-tclog] > img, #foot, .recordcode, .index-copyright, div[style*='overflow'], .rn-container, .s-loading-frame.bottom {display:none !important;}",
         ddrk2: "body,div.post-content,a {overflow-x:hidden !important;}", // ddys
@@ -322,6 +327,7 @@ var imax = {
         dy555: "div.module {z-index:1!important} div.popup.popup-tips.none.popupShow, a[target=\"_blank\"] img,.playtop.col-pd,a[href*=\"?channelCode=\"] > img[src*=\".com:\"],#adsbox,div.myui-panel.myui-panel-bg.clearfix.wapad {display:none !important}", // 555影院
         wnacg: "div > img[src*='gif'],div.sh,div > a[target='_blank'] > img {display:none !important}", // 绅士漫画
         missav: "a[href^='https://theporndude.com'],a[href*='mycomic'],a[href*=myavlive],[href*='bit.ly'],[href*='bit.ly'][target=_blank], a[href*='/vip'],img[src*='.gif'], iframe,#a[href*='//bit.ly/'],div[style*='z-index: 1001'],ul.space-y-2.mb-4.ml-4.list-disc.text-nord14,div.space-y-5.mb-5,div.under_player,div[style=\"width: 300px; height: 250px;\"] {display:none !important; pointer-events:none important;} body{overflow-x:hidden;}", //  MissAV
+        bigirl: 'div#container + div, h4.adblock_title,div.adblock_subtitle,[class^=\'adblock\'],div[class^=\'ad_\'], .toppage_av {display:none !important; pointer-events: none !important;}', // https://bi-girl.net/
         porna91: "a[href*='cloudfront'], div.filters, div.filters > div#videobox, div.row > div.col.col-24 { min-height: 0px !important; display:none !important; pointer-events: none !important;}", // 91porna
         porn91: ".copysuccess {background:green !important;color:white !important;} br, .ad_img,.preroll-blocker, img[href*='.gif'] {display:none !important; pointer-events: none !important;}", // 91porn
         zhihuAds: "div.css-1izy64v,[class='Card AppBanner'],.Footer,.Banner-link,div.Pc-word {display:none !important; pointer-events: none !important;}",
@@ -373,13 +379,15 @@ function values() {
     var adsDomain = [
         "pornhub",
         "missav",
+        "bi-girl",
         "91porna",
         "91porn.",
         "avple",
         "18comic",
         "wnacg",
-        "zhidao",
-        "baidu",
+        "zhidao.baidu.com",
+        "www.baidu.com",
+        "m.baidu.com",
         "ddys",
         "jable",
         "bdys",
@@ -570,10 +578,14 @@ function adsDomain_switch(x) { // 匹配参数值 执行相应函数
         case 'wnacg':
             css_adsRemove(imax.css.wnacg);
             break;
-        case 'zhidao':
-            css_adsRemove(imax.css.baidu_zhidao)
+        case 'zhidao.baidu.com':
+            console.log('it\'s zhidao.baidu.com')
+            css_adsRemove(imax.css.baidu_zhidao, 500, 'fuckbaidu')
+            setTimeout(() => {
+                css_adsRemove(imax.css.baidu_zhidao, 500, 'fuckbaidu')
+            }, 1500)
             break;
-        case 'baidu':
+        case 'www.baidu.com':
             console.log('Got u! baidu.com')
             let regex = /https?:\/\/(www|m)\.baidu\.com\/(from=|s\?)/gi
             window.location.href.search(regex) !== -1
@@ -585,7 +597,6 @@ function adsDomain_switch(x) { // 匹配参数值 执行相应函数
                 css_adsRemove(imax.css.baidu_index);
                 console.log('移首页广告🪧...')
             }
-
             break;
         case 'ddys':
             //css_adsRemove(imax.css.ddrk);
@@ -972,7 +983,7 @@ function adsDomain_switch(x) { // 匹配参数值 执行相应函数
                     let father = 'div.col-md-3.info';
                     let code = window.location.pathname.replace('/', '')
                     let url = window.location.href
-                    let regx = /[a-zA-Z]{3,5}\-\d{3,5}/i
+                    let regx = /[a-zA-Z]{2,6}\-\d{2,5}/i
 
 
                     if (url.search(regx) !== -1) {
@@ -1288,7 +1299,6 @@ function adsDomain_switch(x) { // 匹配参数值 执行相应函数
             setTimeout(() => {
                 document.querySelectorAll("div[class*='modalCloseButton']")[0].click()
             }, 500)
-
             break;
 
         case 'novel543':
@@ -1298,6 +1308,11 @@ function adsDomain_switch(x) { // 匹配参数值 执行相应函数
         case 'diyibanzhu':
             css_adsRemove(imax.css.diyibanzhu, 100, 'novel543x');
             window_open_defuser(); // 打断 window.open 施法
+            break;
+
+        case 'bi-girl': // bigirl
+            css_adsRemove(imax.css.bigirl, 500, 'bigirl')
+            js_adsRemove(uBlockOrigin.noevalif);
             break;
 
         case 'missav':
@@ -2685,6 +2700,32 @@ function noWindowOpenIf(
                 });
             }
             return popup;
+        }
+    });
+}
+
+
+/// noEvalIf
+/// https://github.com/gorhill/uBlock/blob/60ed584fc181b5d8dd935d60c32d2592d3674188/src/js/resources/scriptlets.js#L1611
+
+function noEvalIf(
+    needle = ''
+) {
+    if (typeof needle !== 'string') { return; }
+    const safe = safeSelf();
+    const logPrefix = safe.makeLogPrefix('noeval-if', needle);
+    const reNeedle = safe.patternToRegex(needle);
+    window.eval = new Proxy(window.eval, {  // jshint ignore: line
+        apply: function (target, thisArg, args) {
+            const a = String(args[0]);
+            if (needle !== '' && reNeedle.test(a)) {
+                safe.uboLog(logPrefix, 'Prevented:\n', a);
+                return;
+            }
+            if (needle === '' || safe.logLevel > 1) {
+                safe.uboLog(logPrefix, 'Not prevented:\n', a);
+            }
+            return Reflect.apply(target, thisArg, args);
         }
     });
 }

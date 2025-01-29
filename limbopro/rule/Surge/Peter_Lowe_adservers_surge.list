@@ -1,7 +1,7 @@
 # Blocklist for use with hosts files to block ads, trackers, and other nasty things
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Tue, 31 Dec 2024 03:22:42 GMT
+# last updated:   Wed, 15 Jan 2025 14:33:58 GMT
 # entries:        3545
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
@@ -185,7 +185,6 @@ DOMAIN-SUFFIX,adalliance.io
 DOMAIN-SUFFIX,adanging.blog
 DOMAIN-SUFFIX,adap.tv
 DOMAIN-SUFFIX,adapt.tv
-DOMAIN-SUFFIX,adaranth.com
 DOMAIN-SUFFIX,adbilty.me
 DOMAIN-SUFFIX,adblade.com
 DOMAIN-SUFFIX,adblade.org
@@ -343,7 +342,6 @@ DOMAIN-SUFFIX,adrotic.girlonthenet.com
 DOMAIN-SUFFIX,adrta.com
 DOMAIN-SUFFIX,ads-backend.chaincliq.com
 DOMAIN-SUFFIX,ads-bilek.com
-DOMAIN-SUFFIX,ads-click.com
 DOMAIN-SUFFIX,ads-dev.pinterest.com
 DOMAIN-SUFFIX,ads-game-187f4.firebaseapp.com
 DOMAIN-SUFFIX,ads-kesselhaus.com
@@ -601,7 +599,6 @@ DOMAIN-SUFFIX,ads.tripod.lycos.it
 DOMAIN-SUFFIX,ads.tripod.lycos.nl
 DOMAIN-SUFFIX,ads.tso.dennisnet.co.uk
 DOMAIN-SUFFIX,ads.twitter.com
-DOMAIN-SUFFIX,ads.twojatv.info
 DOMAIN-SUFFIX,ads.ultimate-guitar.com
 DOMAIN-SUFFIX,ads.uncrate.com
 DOMAIN-SUFFIX,ads.unison.bg
@@ -939,6 +936,7 @@ DOMAIN-SUFFIX,analytics.yahoo.com
 DOMAIN-SUFFIX,analyticsapi.happypancake.net
 DOMAIN-SUFFIX,ancientact.com
 DOMAIN-SUFFIX,androiddownload.net
+DOMAIN-SUFFIX,angossa.com
 DOMAIN-SUFFIX,aniview.com
 DOMAIN-SUFFIX,annonser.dagbladet.no
 DOMAIN-SUFFIX,annoyedairport.com
@@ -1142,7 +1140,6 @@ DOMAIN-SUFFIX,blogcounter.de
 DOMAIN-SUFFIX,blogherads.com
 DOMAIN-SUFFIX,blogtoplist.se
 DOMAIN-SUFFIX,blogtopsites.com
-DOMAIN-SUFFIX,blueadvertise.com
 DOMAIN-SUFFIX,blueconic.com
 DOMAIN-SUFFIX,blueconic.net
 DOMAIN-SUFFIX,bluekai.com
@@ -1310,7 +1307,6 @@ DOMAIN-SUFFIX,click.news.vans.com
 DOMAIN-SUFFIX,click.nl.npr.org
 DOMAIN-SUFFIX,click.nvgaming.nvidia.com
 DOMAIN-SUFFIX,click.redditmail.com
-DOMAIN-SUFFIX,click.twcwigs.com
 DOMAIN-SUFFIX,click.v.visionlab.es
 DOMAIN-SUFFIX,click2freemoney.com
 DOMAIN-SUFFIX,click360v2-ingest.azurewebsites.net
@@ -1789,6 +1785,7 @@ DOMAIN-SUFFIX,go-rank.de
 DOMAIN-SUFFIX,go-redirect.pl
 DOMAIN-SUFFIX,go.dhs.gov
 DOMAIN-SUFFIX,go.eu.sparkpostmail1.com
+DOMAIN-SUFFIX,go.first.org
 DOMAIN-SUFFIX,go.icann.org
 DOMAIN-SUFFIX,go.scmagazine.com
 DOMAIN-SUFFIX,go.usa.gov
@@ -1811,6 +1808,7 @@ DOMAIN-SUFFIX,gotraffic.net
 DOMAIN-SUFFIX,gp.dejanews.com
 DOMAIN-SUFFIX,graizoah.com
 DOMAIN-SUFFIX,grandfatherguitar.com
+DOMAIN-SUFFIX,granlite.com
 DOMAIN-SUFFIX,grapeshot.co.uk
 DOMAIN-SUFFIX,greyinstrument.com
 DOMAIN-SUFFIX,greystripe.com
@@ -2064,7 +2062,6 @@ DOMAIN-SUFFIX,lemnisk.co
 DOMAIN-SUFFIX,lever-analytics.com
 DOMAIN-SUFFIX,lfeeder.com
 DOMAIN-SUFFIX,lfstmedia.com
-DOMAIN-SUFFIX,lgad.cjpowercast.com.edgesuite.net
 DOMAIN-SUFFIX,lgsmartad.com
 DOMAIN-SUFFIX,li.alibris.com
 DOMAIN-SUFFIX,li.azstarnet.com
@@ -2167,6 +2164,7 @@ DOMAIN-SUFFIX,mail-ads.google.com
 DOMAIN-SUFFIX,maltiverse.lt.acemlnc.com
 DOMAIN-SUFFIX,manageadv.cblogs.eu
 DOMAIN-SUFFIX,mantisadnetwork.com
+DOMAIN-SUFFIX,mapcommand.com
 DOMAIN-SUFFIX,marinsm.com
 DOMAIN-SUFFIX,markedmeasure.com
 DOMAIN-SUFFIX,marketing.888.com
@@ -2563,6 +2561,7 @@ DOMAIN-SUFFIX,pointlesshour.com
 DOMAIN-SUFFIX,pointlessprofit.com
 DOMAIN-SUFFIX,pointroll.com
 DOMAIN-SUFFIX,pokkt.com
+DOMAIN-SUFFIX,polishedfolly.com
 DOMAIN-SUFFIX,popads.net
 DOMAIN-SUFFIX,popcash.net
 DOMAIN-SUFFIX,popmyads.com
@@ -2990,6 +2989,7 @@ DOMAIN-SUFFIX,spotx.tv
 DOMAIN-SUFFIX,spotxchange.com
 DOMAIN-SUFFIX,springbot.com
 DOMAIN-SUFFIX,springserve.com
+DOMAIN-SUFFIX,sprysummit.com
 DOMAIN-SUFFIX,spulse.net
 DOMAIN-SUFFIX,spylog.com
 DOMAIN-SUFFIX,spywarelabs.com
@@ -3144,7 +3144,6 @@ DOMAIN-SUFFIX,tealeaf.com
 DOMAIN-SUFFIX,tealium.cbsnews.com
 DOMAIN-SUFFIX,tealium.com
 DOMAIN-SUFFIX,tealiumiq.com
-DOMAIN-SUFFIX,tediousticket.com
 DOMAIN-SUFFIX,tedioustooth.com
 DOMAIN-SUFFIX,teenrevenue.com
 DOMAIN-SUFFIX,telaria.com
@@ -3352,6 +3351,7 @@ DOMAIN-SUFFIX,understoodocean.com
 DOMAIN-SUFFIX,undertone.com
 DOMAIN-SUFFIX,unidentifiedanalytics.web.app
 DOMAIN-SUFFIX,unknowntray.com
+DOMAIN-SUFFIX,unloadyourself.com
 DOMAIN-SUFFIX,unrulymedia.com
 DOMAIN-SUFFIX,untd.com
 DOMAIN-SUFFIX,untidyquestion.com

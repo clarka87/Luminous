@@ -1,5 +1,5 @@
 # 规则名称: Ads_EasyListPrivacy
-# 规则统计: 41439
+# 规则统计: 41462
 
 domain_suffix_set:
   - 0.0.0.1
@@ -4208,6 +4208,7 @@ domain_suffix_set:
   - abstractedauthority.com
   - absurdapple.com
   - absurdwater.com
+  - absys.web.de
   - abt.bauhaus.es
   - abt.bauhaus.info
   - abt.nike.com
@@ -5162,6 +5163,7 @@ domain_suffix_set:
   - analytics.betterplaces.nl
   - analytics.bgr.com
   - analytics.bigfishgames.com
+  - analytics.bitchute.com
   - analytics.bitrix.info
   - analytics.blackboard.com
   - analytics.bleacherreport.com
@@ -5291,6 +5293,7 @@ domain_suffix_set:
   - analytics.gewaterheater.com
   - analytics.glance.inmobi.com
   - analytics.global.sky.com
+  - analytics.gokwik.co
   - analytics.gooogol.com
   - analytics.greenmountain.com
   - analytics.greenmountainenergy.com
@@ -6910,6 +6913,7 @@ domain_suffix_set:
   - atlkse.aosom.it
   - atom-log.3.cn
   - ats.alot.com
+  - ats.otto.de
   - atsmetrics.adobe.com
   - atsmobile.actonservice.com
   - attend.5gnorthamericaevent.com
@@ -8068,6 +8072,7 @@ domain_suffix_set:
   - bzuaqh.roan.nl
   - c-c-l.actonservice.com
   - c-t.topya.com
+  - c.albss.com
   - c.amazinglybrilliant.com.au
   - c.aquaservice.com
   - c.arstechnica.com
@@ -8334,6 +8339,7 @@ domain_suffix_set:
   - cdn.arcstudiopro.com
   - cdn.net.dz.jumia.com
   - cdn.net.elogia.net
+  - cdn.polarbyte.com
   - cdn.ravm.tv
   - cdn.usefathom.com
   - cdn1.skrill.com
@@ -8885,6 +8891,7 @@ domain_suffix_set:
   - collector.quillbot.com
   - collector.schibsted.io
   - collector.sspinc.io
+  - collector.t-idr.com
   - collector.taoxh.life
   - collector.wawlabs.com
   - collector.xhaccess.com
@@ -9296,6 +9303,7 @@ domain_suffix_set:
   - content.rightsourcemarketing.com
   - content.sffirecu.org
   - content.stage.mini.pix.style
+  - content.tab.com.au
   - content.tacticalma.com
   - content.tatatelebusiness.com
   - content.timetogather.co.uk
@@ -10461,6 +10469,7 @@ domain_suffix_set:
   - data.tw-guest.princess.com
   - data.txn.puntoscolombia.com
   - data.ubi.com
+  - data.ublock-browser.com
   - data.uk-email.princess.com
   - data.uk-guest.princess.com
   - data.umfrage.aetkasmart.de
@@ -10577,6 +10586,7 @@ domain_suffix_set:
   - dckiwt.eataly.com
   - dclnxirp001cou.net.jumia.co.tz
   - dcnkrd.baseballsavings.com
+  - dco.coupang.com
   - dcs.audi.com
   - dcs.esprit.at
   - dcs.esprit.au
@@ -11290,6 +11300,7 @@ domain_suffix_set:
   - domainbntest.branchcustom.xyz
   - domino.flycl.ps
   - domorewithless.adp.ca
+  - domself.de
   - donjigrad.viessmann.rs
   - donkeyleaf.com
   - doorbrazil.com
@@ -11370,6 +11381,7 @@ domain_suffix_set:
   - dreamycanyon.com
   - dressexpansion.com
   - drfdisvc.walmart.com
+  - driftingchef.com
   - driftpizza.com
   - dripappliance.com
   - drive.carpoollogistics.com
@@ -12819,6 +12831,7 @@ domain_suffix_set:
   - event3.thermoscientific.com
   - eventapi.libring.com
   - eventbus.intuit.com
+  - eventcollector.mcf-prod.a.intuit.com
   - eventexistence.com
   - eventgateway.soundcloud.com
   - eventlog.chatlead.com
@@ -13201,6 +13214,7 @@ domain_suffix_set:
   - feedback.lifeguardarena.com
   - feedback.nslsc-csnpe.ca
   - feedme.use-beez.com
+  - feedten.com
   - feignedfaucet.com
   - femetrics.grammarly.io
   - feppiu.systemaction.es
@@ -19615,6 +19629,7 @@ domain_suffix_set:
   - majesticwilderness.com
   - makbti.bandofboats.com
   - makeshiftmine.com
+  - makesimpact.com
   - maliciousmusic.com
   - maling.dn.no
   - mallioras.openapp.link
@@ -19629,6 +19644,7 @@ domain_suffix_set:
   - manufacturing.autodeskcommunications.com
   - map.rockwellautomation.com
   - mapbasin.com
+  - mapcommand.com
   - mapixl.com
   - mapp.biryanibykilo.com
   - mapp.ewm.co.uk
@@ -22189,6 +22205,7 @@ domain_suffix_set:
   - metrics.huntington.com
   - metrics.huntingtonsdiseasehcp.com
   - metrics.hydraulicspneumatics.com
+  - metrics.hyperliquid.xyz
   - metrics.hyundaiusa.com
   - metrics.icloud.com
   - metrics.iconfitness.com
@@ -23077,6 +23094,7 @@ domain_suffix_set:
   - miscreantmoon.com
   - missionrewards.com
   - missionrs.actonservice.com
+  - mistervillas.com
   - mistyhorizon.com
   - mit.bhw.de
   - mit.db.com
@@ -23288,6 +23306,7 @@ domain_suffix_set:
   - move.azets.se
   - movemeal.com
   - mowfruit.com
+  - mowgoats.com
   - mowvra.idlookmall.com
   - moxtra.actonservice.com
   - mp.imgur.com
@@ -23989,6 +24008,7 @@ domain_suffix_set:
   - observe-nexus.pointandplace.com
   - observe.metarouter.io
   - observer.ip-label.net
+  - obseu.netgreencolumn.com
   - obtfhl.bellemaison.jp
   - oca.microsoft.com
   - occidente.ubmmexico.com
@@ -24974,10 +24994,8 @@ domain_suffix_set:
   - pine.clk.click
   - pine.nervecentral.com
   - ping.dozuki.com
-  - ping.fastsimon.com
   - ping.hashnode.com
   - ping.hungama.com
-  - ping.instantsearchplus.com
   - ping.naturadapt.com
   - ping.paidy.com
   - ping.resoluteoil.com
@@ -26574,6 +26592,7 @@ domain_suffix_set:
   - rt.flix360.com
   - rt.newswire.ca
   - rt.prnewswire.com
+  - rt.whitebridge.ai
   - rta.dailymail.co.uk
   - rta2.inews.co.uk
   - rta2.metro.co.uk
@@ -28465,6 +28484,7 @@ domain_suffix_set:
   - sharkskids.com
   - sharppatch.com
   - sheeta.nrj-play.fr
+  - sheideal.com
   - shelbypublishing.actonservice.com
   - shell-recharge.tupinambaenergia.com.br
   - sheregesh-io.traveler.today
@@ -32274,6 +32294,7 @@ domain_suffix_set:
   - sproutingbag.com
   - sprtnd.com
   - sprydelta.com
+  - sprysummit.com
   - spscas.hitachi-solutions.co.jp
   - spt.ahram.org.eg
   - spuriousair.com
@@ -34133,6 +34154,7 @@ domain_suffix_set:
   - stnt.sky.de
   - stockingsleet.com
   - stockingsneeze.com
+  - stocktheme.com
   - stomachscience.com
   - stonechin.com
   - stopstomach.com
@@ -34743,6 +34765,7 @@ domain_suffix_set:
   - t.cofcsports.com
   - t.collinscenterforthearts.com
   - t.cometlytrack.com
+  - t.commandbar.com
   - t.comms.thetimes.co.uk
   - t.cozone.com
   - t.csurams.com

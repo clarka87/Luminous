@@ -1,5 +1,5 @@
 # 规则名称: Ads_AWAvenue
-# 规则统计: 739
+# 规则统计: 740
 
 HOST-SUFFIX,1010pic.com,Ads_AWAvenue
 HOST-SUFFIX,8le8le.com,Ads_AWAvenue
@@ -149,7 +149,6 @@ HOST-SUFFIX,an.facebook.com,Ads_AWAvenue
 HOST-SUFFIX,analysis.yozocloud.cn,Ads_AWAvenue
 HOST-SUFFIX,analytics-api.samsunghealthcn.com,Ads_AWAvenue
 HOST-SUFFIX,analytics.126.net,Ads_AWAvenue
-HOST-SUFFIX,analytics.95516.com,Ads_AWAvenue
 HOST-SUFFIX,analytics.google.com,Ads_AWAvenue
 HOST-SUFFIX,analytics.pinterest.com,Ads_AWAvenue
 HOST-SUFFIX,analytics.pointdrive.linkedin.com,Ads_AWAvenue
@@ -451,6 +450,7 @@ HOST-SUFFIX,mime.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,mine.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,mission-pub.smart-tv.cn,Ads_AWAvenue
 HOST-SUFFIX,miui-fxcse.avlyun.com,Ads_AWAvenue
+HOST-SUFFIX,mmgame.qpic.cn,Ads_AWAvenue
 HOST-SUFFIX,mnqlog.ldmnq.com,Ads_AWAvenue
 HOST-SUFFIX,mobads-logs.baidu.com,Ads_AWAvenue
 HOST-SUFFIX,mobads-pre-config.cdn.bcebos.com,Ads_AWAvenue
@@ -720,6 +720,7 @@ HOST-SUFFIX,ws-keyboard.shouji.sogou.com,Ads_AWAvenue
 HOST-SUFFIX,ws.sj.qq.com,Ads_AWAvenue
 HOST-SUFFIX,www42.zskwai.com,Ads_AWAvenue
 HOST-SUFFIX,wxa.wxs.qq.com,Ads_AWAvenue
+HOST-SUFFIX,wxaintpcos.wxqcloud.qq.com.cn,Ads_AWAvenue
 HOST-SUFFIX,wximg.wxs.qq.com,Ads_AWAvenue
 HOST-SUFFIX,wxsmw.wxs.qq.com,Ads_AWAvenue
 HOST-SUFFIX,wxsnsad.tc.qq.com,Ads_AWAvenue
